@@ -1,3 +1,26 @@
+#comparison opperators: ==, !=, <, >, <=, >=
+
+x = 5
+y = 3
+
+if x>y:
+    print("x is greater than y")
+
+if x<y:
+    print("x is less than y")
+
+if x==y:
+    print("x is equal than y")
+
+if x != y:
+    print("x is not equal to y")
+
+z = 12
+
+if (z>x>y):
+    print("z is greater than x, and x is greater than y. therefroe z is the biggest and y is the smallest")
+
+
 age = int(input("how old are you?"))
 
 if (age < 18):
