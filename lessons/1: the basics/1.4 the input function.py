@@ -49,7 +49,34 @@ something to notice/think about:
 """
 
 """
-activity 1:
+activity 1: Mad libs generator
+
+- a mad libs genrator is very simple. it will help you to jsut practice inputs and concatination
+- it starts fo by promting the user to input answers to a few questions
+- it then uses the answers to fill in the blanks to make a funny story
+
+- heres an example:
+
+program:
+
+- please enter an adjective
+- please enter an adjective
+- please enter an type of bird
+... all the way tot he end
+
+the final output will be what the user put in:
+
+It was a [adjective] cold November day. I woke up to the [adjective] smell of [type of bird] 
+roasting in the [room in a house] downstairs. I [verb (past tense)] down the stairs to see if
+I could help [verb] with the dinner. My mom said, "See if [relative's name] needs a fresh [noun]." 
+So, I carried a tray of glasses full of [a liquid] into the [verb ending in -ing] room.
+When I got there, I couldn't believe my [part of the body (plural)]; there were [plural noun]
+[verb ending in -ing] on the [noun]!
+
+"""
+
+"""
+activity 2: DOB calculator
 
 - make a simple program that asks the user for their name, age, what month and day they were born
 - the program should say "hi [name]"
@@ -61,4 +88,5 @@ hints:
 - you will need to use int()
 - you will need vairables
 - you will need concatination
+
 """

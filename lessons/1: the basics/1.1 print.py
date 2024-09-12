@@ -27,6 +27,7 @@ print(8.0 + 5)
 # print(int('8.5')+5)
 print(float('8.5')+5)
 
+print("this is some tex" "\nthis is some text on a new line\n\nyou can use two backslash n's to make an empty line\n")
 
 """
 summary:
