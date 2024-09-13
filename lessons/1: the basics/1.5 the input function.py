@@ -62,7 +62,7 @@ program:
 - please enter an adjective
 - please enter an adjective
 - please enter an type of bird
-... all the way tot he end
+... all the way to the end
 
 the final output will be what the user put in:
 
