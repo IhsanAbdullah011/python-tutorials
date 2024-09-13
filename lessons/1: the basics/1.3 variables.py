@@ -23,6 +23,7 @@ print("strign followed by 'name' variable: "+ name)
 # print("strign followed by 'age' variable: "+ age)
 print("strign followed by 'age' variable: ", age)
 print("strign followed by 'age' variable: "+ str(age))
+print(f"strign followed by 'name' variable: {name}")
 
 
 # maths with variables
@@ -44,6 +45,7 @@ var_1, var_2, var_3 = ("content for variable 1", "content for variable 1", 3)
 print(var_1)
 print(var_2)
 print(var_3)
+
 
 """
 summary:

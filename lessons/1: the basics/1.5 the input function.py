@@ -90,3 +90,31 @@ hints:
 - you will need concatination
 
 """
+
+"""
+activity 3: Arithmetic Practice
+
+Task: Write a Python program that:
+1. Asks the user for two numbers (integers or floats).
+2. Performs the following operations on those two numbers and prints the results:
+   - Addition (+)
+   - Subtraction (-)
+   - Multiplication (*)
+   - Division (/)
+   - Exponentiation (**)
+   - Integer division (//)
+   - Modulus (%)
+   
+Example output:
+Enter the first number: 10
+Enter the second number: 3
+
+Results:
+Addition: 13
+Subtraction: 7
+Multiplication: 30
+Division: 3.3333333333333335
+Exponentiation: 1000
+Integer division: 3
+Modulus: 1
+"""
