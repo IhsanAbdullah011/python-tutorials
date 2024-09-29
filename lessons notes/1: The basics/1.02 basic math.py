@@ -1,6 +1,6 @@
 #  +, -, *, /
 
-print("adding:", 3+2)
+print("adding:",3+2)
 
 print("subtracting:", 3-2)
 

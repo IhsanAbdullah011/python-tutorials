@@ -28,6 +28,11 @@ print(x>y or y<z)
 print(x<y or y>z)
 print(x>y or y>z)
 
+x = 10
+y = 5
+z = 2
+
+
 #Example 3: Not opperator - what will it print? True or False
 print("\nNOT opperator - what will it print? True or False\n")
 print(not(x == y))

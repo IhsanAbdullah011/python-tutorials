@@ -21,3 +21,15 @@ print("I " + var5 + " down the stairs to see if I could help " + var6 + " with t
 print("My mom said, 'See if " + var7 + " needs a fresh " + var8 + ".'")
 print("So, I carried a tray of glasses full of " + var9 + " into the " + var10 + " room.")
 print("When I got there, I couldn't believe my " + var11 + "; there were " + var12 + " " + var13 + " on the " + var14 + "!")
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 """
 A variable is a named location that is used to store information,
-this information is can be called and used in different parts of the program,
+this information can be called and used in different parts of the program,
 variables store information but that information can be changed.
 
 a good example would be a box:
@@ -11,6 +11,9 @@ a good example would be a box:
 """
 
 #difining variables
+
+
+
 name = "Abdullah"
 age = 10
 
@@ -18,22 +21,46 @@ age = 10
 print(name)
 print(age)
 
+print("hello",5)
+print("hello"+5)
+
+
+
+
 #concatinating with variables
-print("strign followed by 'name' variable: "+ name)
+print("string followed by 'name' variable: "+ name)
 # print("strign followed by 'age' variable: "+ age)
-print("strign followed by 'age' variable: ", age)
+print("strign followed by 'age' variable: " , age)
 print("strign followed by 'age' variable: "+ str(age))
+print("strign followed by 'age' variable: "+ "age")
+print(type(age))
 print(f"strign followed by 'name' variable: {name}")
+
 
 
 # maths with variables
 numOne = 10
 numTwo = 20
-print(numOne + numTwo)
-print(numOne + numOne)
+
+
+print(5+5)
+
+numOne+numTwo = 30
+
+print(numOne + numTwo)  #30
+print(numOne + numOne)  #20
 
 total = numOne + numTwo
 print(total)
+
+#my first number is [variable 1], my second number is [variable 2]. 
+#[variable 1] + [variable 2] = [total]
+
+# +
+# -
+# /
+# *
+
 
 #re-assigning values to existing variables
 print(numOne)
