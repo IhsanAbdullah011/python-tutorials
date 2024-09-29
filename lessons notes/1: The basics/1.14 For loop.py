@@ -14,7 +14,10 @@ introduction to loops: For loop
 # introduce 0 indexing
 # introduce range (start,stop) function
 
-for i in range(0,10):
+for i in range(10):
+    print("i wont miss my homework")
+
+for i in range(5,10):
     print("i wont miss my homework")
 
 # 'i' is a variable that starts at 0 (because in the range function the firs tnumebr is 0),
@@ -45,3 +48,14 @@ print("")
 
 for counter in range(0,12,2):
     print(f"value of 'counter': {counter}")
+
+
+#uses for loops
+
+totalPrice = 0.00
+itemsBaught = [10.99, 3.99, 2.40, 11.60, 2.99]
+
+for i in itemsBaught:
+    totalPrice = totalPrice+i
+
+print("your total is",totalPrice)
