@@ -14,6 +14,32 @@ if age >= 0:
 else:
     print("Invalid age")
 
+
+#loan eligiibility calculator
+
+isStudent = input("are you a student?")
+
+if isStudent=="yes":
+
+    isAdult = int(input("how old are you?"))
+
+    if isAdult >= 18:
+
+        isKafir = input("are you a kafir?")
+
+        if isKafir == "yes":
+            print("you are ellegible for a loan")
+
+        else:
+            print("you arent ellegible for a loan because you are muslim")
+    else:
+        print("you arent ellegible for a loan beacuse you are too young")
+else:
+    print("you arent ellegible for a loan because you are a student")
+
+
+
+
 """
 activity 3: Text-Based Adventure Game
 

@@ -1,7 +1,7 @@
 #comparison opperators: ==, !=, <, >, <=, >=
 
 x = 5
-y = 3
+y = 7
 
 if x>y:
     print("x is greater than y")
