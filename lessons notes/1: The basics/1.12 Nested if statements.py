@@ -24,9 +24,8 @@ if isStudent=="yes":
     isAdult = int(input("how old are you?"))
 
     if isAdult >= 18:
-
         isKafir = input("are you a kafir?")
-
+        
         if isKafir == "yes":
             print("you are ellegible for a loan")
 
