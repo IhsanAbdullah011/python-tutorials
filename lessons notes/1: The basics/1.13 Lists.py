@@ -1,4 +1,5 @@
-shoppingList = ["banana", "apple", "pear", "pineapple"]
+shoppingList = ["banana", "apple", "pear", "pineapple"] 
+
 
 print(shoppingList) #prints full list
 
@@ -9,31 +10,69 @@ print(shoppingList[3]) #prints 4th item/element
 
 print("")
 
+
+
+
+
+
+
+
+
+
+
 #list methods
 
 #Example 1: append: adds to the end of the list
 shoppingList.append("coconut")
-print(f"\n {shoppingList}")
+print(f"\n{shoppingList}")
+
+
+
 
 #Example 2: sorts the list alphabetically
 shoppingList.sort()
-print(f"\n {shoppingList}")
+print(shoppingList)
+
+
+
+
 
 #Example 3: reverses the order of the items in the list
 shoppingList.reverse()
 print(f"\n {shoppingList}")
 
+
+
+
+
+
 #Example 4: removes the last item in the list
-shoppingList.pop()
+shoppingList.pop(2)
 print(f"\n {shoppingList}")
 
-#Example 5: removes whatevr is specified inside of th ebrackets
+
+
+
+
+
+
+
+#Example 5: removes whatever is specified inside of the brackets
 shoppingList.remove("banana")
 print(f"\n {shoppingList}")
 
+
+
+
+
 #Example 6: inserts a value into the index specified -> .insert(index, value)
 shoppingList.insert(2,"orange")
+print("inserted orange in index 2 -> position 3:")
 print(f"\n {shoppingList}")
+
+
+
+print(len(shoppingList))
 
 
 

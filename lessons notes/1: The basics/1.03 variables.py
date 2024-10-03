@@ -36,6 +36,8 @@ print("strign followed by 'age' variable: "+ "age")
 print(type(age))
 print(f"strign followed by 'name' variable: {name}")
 
+print(f"hi my name is {name} and i am {age} years old")
+
 
 
 # maths with variables
