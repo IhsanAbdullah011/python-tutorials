@@ -1,9 +1,25 @@
-condition = 0
 
-while condition <10:
-    print("the numebr inside the condition variable is less than 10")
+condition = 25
+
+while condition > 10:
+    print("the numebr inside the condition variable is greater than 10")
     print("condition =",condition)
-    condition = condition + 1
+    condition = condition -1  #this is my way to break out of the loop eventually
+
+
+
+isClever = False
+while isClever == False:
+
+    print("you're dumb. go study")
+    number = int(input("what is 9 + 10"))
+
+    if number != 19:
+        print("you are wrong")
+    elif number == 19:
+        print("correct")
+        isClever = True
+
 
 
 
@@ -28,13 +44,20 @@ for i in itemsBaught:
 
 print("your total is",totalPrice)
 
+
+
+
+
 #while loop example 2
 print("\n\n steak doneness input\n\n")
-print("\n\nWhat is your preferred doneness of steak")
-answer = input("Please enter a number:\n\n1) Rare \n2) Medium Rare \n3) Medium \n4) Well Done\nSelection: ")
 
+print("\n\nWhat is your preferred doneness of steak")
+
+answer = input("Please enter a number:\n\n1) Rare \n2) Medium Rare \n3) Medium \n4) Well Done\nSelection: ")
 valid = False
+
 while valid == False:
+    
     if answer in ["1", "2", "3", "4"]:
         valid = True
     else:
@@ -51,3 +74,8 @@ elif answer == "4":
     print("you chose well done")
 
 print("your order is coming")
+
+name = "abdullah"
+
+while name in ["musa","yahya","esa"] != True:
+    print("name isnt in ")

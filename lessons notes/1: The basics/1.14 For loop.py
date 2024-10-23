@@ -14,22 +14,34 @@ introduction to loops: For loop
 # introduce 0 indexing
 # introduce range (start,stop) function
 
-for i in range(10):
+for i in range(100):
     print("i wont miss my homework")
 
-for i in range(5,10):
+
+for i in range(4,11):
     print("i wont miss my homework")
+    
+
+numbers = [2,4,7,8,10,12,14,16,18,20]
+
+for i in range(10): #this is saying the loop will loop 10 times, and i starts from 0 and ends at 9
+
+    print(i) # output: 5
+    print(numbers[i]) # output: 12
+
 
 # 'i' is a variable that starts at 0 (because in the range function the firs tnumebr is 0),
 # each time the loop starts again it will increase by 1 we can see the value of 'i'
 # by printing it out in the loop
 
+
 for i in range(0,10):
     print(f"value of 'i': {i}")
 
+
 print("")
 
-# we can change the name of 'i' to make it asier to understand. lets call it 'counter' instead
+# we can change the name of 'i' to make it esier to understand. lets call it 'counter' instead
 
 for counter in range(0,10):
     print(f"value of 'counter': {counter}")
@@ -46,14 +58,20 @@ print("")
 # increasing by 1 each time the loop loops, it iwll increase by the step number.
 # range(start,stop,step)
 
-for counter in range(0,12,2):
+for counter in range(0,12,3):
     print(f"value of 'counter': {counter}")
 
 
 #uses for loops
-
 totalPrice = 0.00
-itemsBaught = [10.99, 3.99, 2.40, 11.60, 2.99]
+
+itemsBaught = [10.99, 3.99, 2.40, 11.60, 2.99, 5.99]
+
+for i in range(len(itemsBaught)):
+    totalPrice = totalPrice + itemsBaught[i]
+
+
+print(totalPrice)
 
 for i in itemsBaught:
     totalPrice = totalPrice+i
