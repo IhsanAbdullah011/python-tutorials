@@ -10,7 +10,6 @@ introduction to loops: For loop
   that says to the computer, do the specified code FOR 100 repetitions
 
 """
-
 # introduce 0 indexing
 # introduce range (start,stop) function
 
@@ -58,22 +57,36 @@ print("")
 # increasing by 1 each time the loop loops, it iwll increase by the step number.
 # range(start,stop,step)
 
-for counter in range(0,12,3):
-    print(f"value of 'counter': {counter}")
+i = 0
+end = 12
+increase = 3
+
+while i < end-1:
+    print("this is a task thats happening inside of my b-tech for loop")
+    i = i+increase
+
+# start from "i" and increment "i" by the "increase" until you reach the "end": as lomng as you havent reached the end do the follwoing tasks:
+
+
+for i in range(0,12,3):
+    print(f"value of 'counter': {i}")
 
 
 #uses for loops
 totalPrice = 0.00
-
 itemsBaught = [10.99, 3.99, 2.40, 11.60, 2.99, 5.99]
 
 for i in range(len(itemsBaught)):
     totalPrice = totalPrice + itemsBaught[i]
 
-
 print(totalPrice)
+
+
+
 
 for i in itemsBaught:
     totalPrice = totalPrice+i
 
 print("your total is",totalPrice)
+
+#for loop: think of what our counter variable will be set to, think about when the loop needs to end, think about how much the counter will be increased by

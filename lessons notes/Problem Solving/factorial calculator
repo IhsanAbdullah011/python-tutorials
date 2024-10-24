@@ -1,0 +1,11 @@
+def whileFactorial():
+
+    num = int(input("please enter a number to find factorial")) #5
+    counter = 1
+    total = num
+
+    while counter<=num:
+        num = num-1
+        total = total*num
+
+    print(f"answer is: {total}")

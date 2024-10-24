@@ -1,9 +1,13 @@
 # Comparison Operators: ==, !=, <, >, <=, >=
+# Checks!!! --> True or False
 
 # Example 1: Equality (==)
 a = 10
 b = 5
-print("is a equal to b? ", a == b)
+print("is a equal to b? ", a == b) 
+
+# name = "Abdullah" --> MAKING name the same as abdullah
+# name == "Abdullah" --> Checking is name the same as Abdullah? --> True or Flase
 
 # Example 2: Not equal to (!=)
 print("is a not equal to b? ", a != b)

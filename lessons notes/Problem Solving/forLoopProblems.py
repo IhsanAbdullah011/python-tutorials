@@ -4,28 +4,13 @@ P1 adding until given number:
 1) i need to ask the user what number they want to go up to
 2) i need to keep on adding until i reach the number
 
-example:
-user says 6
-
-program:
-
-how?
-
+num = int(input("enter number: "))
 total = 0
 
-
-total = 0
-number = int(input("please enter a number: "))
-
-for i in range(1,number+1):
-    total = total + i
-
-print(total)
+for i in range(num):
+    total = total+i
 
 """
-
-
-
 
 """
 P2: printing all numbers between a range
@@ -44,7 +29,7 @@ for i in range(2,number,2):
     print(i)
 
 1) get number from user
-2) start from 1 and loop untill 12
+2) start from 1 and loop untill number
 3) if the numeber is even print it
 4) if the number is odd dont print it
 

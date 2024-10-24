@@ -19,8 +19,8 @@ while isClever == False:
     elif number == 19:
         print("correct")
         isClever = True
-
-
+    else:
+        print("invalid response")
 
 
 #while loop example 1:

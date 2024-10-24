@@ -66,7 +66,7 @@ while isFinshed == False:
 
 """
 
-timer = int(input("Please enter a numebr to start the timer form"))
+timer = int(input("Please enter a numebr to start the timer form")) #6
 stop = 0
 
 while timer>=stop:

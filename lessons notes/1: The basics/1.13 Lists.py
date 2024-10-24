@@ -77,3 +77,9 @@ print(len(shoppingList))
 
 
 
+
+
+
+musasCars = ["truck", "lorry", "car", "motorbike", "train", "boat"]
+
+musasCars[3]
